@@ -3,9 +3,9 @@
 - app architectures
 - app requirements
 
-Application 계층에 관한 이야기.
+About Application Layer.
 
-- 개념
+- concepts
 - protocol 예(HTTP, SMTP/ POP3/IMAP, DNS)
 - socket API(Network Application 작성 인터페이스)
 
