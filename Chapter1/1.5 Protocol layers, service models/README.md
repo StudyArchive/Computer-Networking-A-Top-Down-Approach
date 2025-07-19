@@ -13,7 +13,7 @@
 
 ### Internet protocol stack => Each protocol layer relies on the layer below it to achieve its own objectives.
 - application layer : supporting network applications(encapsule message made by user application)
-    - FTP(file), SMTP(e-mail), HTTP(Web)
+    - FTP(file), SMTP(e-mail), HTTP(web)
     - make message from user data
 - transport layer : process-process data transfer(source process to destination process delivery)
     - TCP, UDP
