@@ -25,3 +25,7 @@
     - Ethernet, 802.111(WiFi), PPP
     - make frame to attach link layer's header from datagram
 - physical layer : bits "on the wire"
+
+
+
+<img width="1086" height="759" alt="image" src="https://github.com/user-attachments/assets/0d0e4b19-f155-44b4-99a9-961b8eeb7bd3" />
