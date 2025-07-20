@@ -126,6 +126,12 @@ Application-layer protocol defines
 - types of messages exchange(request messgae, response message)
 - message syntax
     - what fields in messages  how fields are delineated
-- message semantics
+- message semantics(how to be read)
     - meaning of information in fields
 - rules for when and how proccess send & respond to messages
+- open protocols
+  - defined in RFCs
+  - allows for interoperability
+  - eg. HTTP(web), SMTP(e-mail)
+- proprietary protocols
+  - eg. Skype
