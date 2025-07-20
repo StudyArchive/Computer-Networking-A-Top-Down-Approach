@@ -63,7 +63,7 @@ Sockets :
 
 application layer communicate with transport layer
 
-pro cess sends/recieves messages to/from its socket
+process sends/recieves messages to/from its socket
 
 Addressing processes
 
