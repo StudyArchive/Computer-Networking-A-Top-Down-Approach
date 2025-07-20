@@ -34,7 +34,7 @@ Client-server architecture
     - always communicate with server.
         - do not communicate with client each other
     - may be intermittently connected
-    - ma have dynamic IP address
+    - may have dynamic IP address
 
 P2P architecture
 
