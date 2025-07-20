@@ -14,7 +14,7 @@
 ## Bad guys: put malware into hosts via Internet
 ### malwware can get in host from:
 - virus: self-replicating infection by receiving/executing object(e.g. e-mail aatachment)
-- work: self-replicating infection by passively receiving object htat gets itself executed
+- worm: self-replicating infection by passively receiving object htat gets itself executed
 
 ### spyware malware can record keystrokes, web sites visited, upload info to collection site
 
