@@ -18,7 +18,7 @@ Network application
 
 Application architecture 
 
-⇒ network application은 아래 구조중 한 가지 를 취함. 네트워크 프로토콜도 아래 중 하나의 구조를 가짐.
+⇒ network application은 아래 구조중 한 가지를 취함. 네트워크 프로토콜도 아래 중 하나의 구조를 가짐.
 
 - client-server
 - peer-to-peer(P2P)
