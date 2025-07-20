@@ -28,7 +28,7 @@
 
 ### 1980-1990: new protocols, a proliferation of networks
 - 1983: deployment of TCP/IP
-- 1982: smtp e-mail protocol defined
+- 1982: SMTP e-mail protocol defined
 - 1983: DNS defined for name-to-IP-address translation
 - 1985: FTP protocol defined
 - 1988: TCP congestion control
