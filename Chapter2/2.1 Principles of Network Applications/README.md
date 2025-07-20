@@ -104,7 +104,7 @@ TCP service
 - flow control: sender won’t overwhelm receiver (TCP control OS layer kernel stack buffer control for Receiver’s Buffer)
 - connection-oriented: setup required between client and server processes(not physically, only conceptual and logically connection)
 - congestion control: throttle sender when network overloaded(Network overhead control)
-- do not privede : timing, minimum throughput gurantee, security
+- do not provide : timing, minimum throughput gurantee, security
 
 UDP
 - unreliable data transfer beween sending and receiving process
