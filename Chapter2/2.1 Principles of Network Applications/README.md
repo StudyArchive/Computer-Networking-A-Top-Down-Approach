@@ -6,7 +6,7 @@
 About Application Layer.
 
 - concepts
-- protocol 예(HTTP, SMTP/ POP3/IMAP, DNS)
+- protocol example(HTTP, SMTP/ POP3/IMAP, DNS)
 - socket API(Network Application 작성 인터페이스)
 
 Network application
