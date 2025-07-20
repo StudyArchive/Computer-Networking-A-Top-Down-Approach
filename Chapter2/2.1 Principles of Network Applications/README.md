@@ -117,8 +117,7 @@ Internet apps: application, transport protocols
 | remote terminal access | Telnet(RFC 854) | TCP |
 | Web | HTTP(RFC 2616) | TCP |
 | file transfer | FTP(RFC 959) | TCP |
-| streaming multimedia | HTTP(e.g. YouTube)
-RFP(RFC 1889) | TCP or UDP |
+| streaming multimedia | HTTP(e.g. YouTube) RFP(RFC 1889) | TCP or UDP |
 | Internet telephony | SIP, RTP, proprietary(eg. Skype) | TCP or UDP |
 
 
