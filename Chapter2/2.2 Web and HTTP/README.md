@@ -33,3 +33,4 @@
 - multiple objects can be sent over sigle TCP connection between client, server
 
 <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/118e04b0-a512-429e-bc5d-269207bd0688" />
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/aecbd3f6-6096-4b8f-a309-bf11a92aec2d" />
