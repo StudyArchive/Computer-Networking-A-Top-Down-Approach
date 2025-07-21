@@ -64,3 +64,27 @@
 
 <img width="689" height="308" alt="image" src="https://github.com/user-attachments/assets/daab9338-7f14-4e71-a04e-3ae32dfcd3a5" />
 
+
+
+## Uploading form input
+- POST method
+  - web page often includs form inpu
+  - input is uploaded to server in entity body
+- URL method
+  - uses GET method
+  - input is uploaded in URL filed of request line: www.example.com/animalsearch?monkeys&banana
+
+## Method types
+- HTTP/1.0
+ - GET
+ - POST
+ - HEAD : asks server to leave queststed object out of response
+
+- HTTP/1.1
+ - GET, POST, HEAD
+ - PUT
+  - uploads file in entity body to path specified in URL field
+ - DELETE
+  - deeltes file specified in the URL field 
+
+## HTTP response message
