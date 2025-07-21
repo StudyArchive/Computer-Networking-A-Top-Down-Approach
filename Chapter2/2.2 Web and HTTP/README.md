@@ -31,3 +31,5 @@
 
 ### Recent HTTP versions are persistent HTTP
 - multiple objects can be sent over sigle TCP connection between client, server
+
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/118e04b0-a512-429e-bc5d-269207bd0688" />
