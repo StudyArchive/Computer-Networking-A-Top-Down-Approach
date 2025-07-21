@@ -61,3 +61,6 @@
 ## HTTP request message
 - two types of HTTP messages: request, reponse
 - HTTP request message : ASCII(human-readable format)
+
+<img width="689" height="308" alt="image" src="https://github.com/user-attachments/assets/daab9338-7f14-4e71-a04e-3ae32dfcd3a5" />
+
