@@ -18,7 +18,7 @@
 - client initiates TCP connections(creates socket) to server, port 80
 - server accests TCP connection from client
 - HTTP messages(application-layer protocol messages) exchanged between browser(HTTP client) and Web server(HTTP server)
-- TCP connection clsed
+- TCP connection closed
 
 ### HTTP is "stateless"
 - server maintains no information about past client requests
