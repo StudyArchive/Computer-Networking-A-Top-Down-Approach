@@ -34,3 +34,30 @@
 
 <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/118e04b0-a512-429e-bc5d-269207bd0688" />
 <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/aecbd3f6-6096-4b8f-a309-bf11a92aec2d" />
+
+## Non-persistent HTTP: response time
+- RTT(Round Trip Time)
+ - time for a small packet to travel from client to server and back
+- HTTP response time
+  - one RTT to initiate TCP
+  - one RTT for HTTP request and first few bytes of HTTP response to return
+  - file transmission time
+  - one-persistent HTTP response time = 2RTT + file transmission time
+
+
+## Persistent HTTP
+### non-persistent HTTP issues
+- requires 2RTTs per object
+- browsers often open parallel TCP connetions to fetch referenced objects
+- OS overhead for each TCP connection
+
+### persistent HTTP
+- server leaves connection open after sending response
+- subsequent HTTP messages between same client/server sent over open connection
+- client sends requests as soon as it encouters a referenced object
+- as little as one RTT for all the refrenced objects
+
+
+## HTTP request message
+- two types of HTTP messages: request, reponse
+- HTTP request message : ASCII(human-readable format)
