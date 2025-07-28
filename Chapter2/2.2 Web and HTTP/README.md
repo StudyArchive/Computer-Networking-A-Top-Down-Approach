@@ -90,4 +90,13 @@
 ## HTTP response message
 <img width="670" height="395" alt="image" src="https://github.com/user-attachments/assets/6b2baa73-e1b5-4f7f-97e5-5dc1bb9f397f" />
 
-##Cookie
+
+## HTTP response status codes
+- status code appears in 1st line in server-to-client response message
+- some sample codes:
+ - 200 OK : request succeeded, requested object later in this msg
+ - 301 Moved Permanently: requested object moved, new location specified later in this msg(Location:)
+ - 400 Bad Requst: request msg not understood by server
+ - 404 Not Found: requested document not found on this server
+ - 500 HTTP Version Not Supported
+
