@@ -89,3 +89,5 @@
 
 ## HTTP response message
 <img width="670" height="395" alt="image" src="https://github.com/user-attachments/assets/6b2baa73-e1b5-4f7f-97e5-5dc1bb9f397f" />
+
+##Cookie
