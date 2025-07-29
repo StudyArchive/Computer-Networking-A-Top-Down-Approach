@@ -100,3 +100,38 @@
  - 404 Not Found: requested document not found on this server
  - 500 HTTP Version Not Supported
 
+
+## User-server state: cookies
+- many Web sites use cookies
+- four components
+  - cookie header line of HTTP response message
+  - cookie header line in next HTTP request message
+  - cooke file kept on user's host, managed by user's browser
+  - back-end database at Web site
+
+- example:
+ - Susan always access Internet from PC visits specific e-commerce site for first time
+ - when initial HTTP requests arrives at site, site creates:
+  - unique ID 
+  - entry in backend database for ID
+
+what cookies can be used for:
+- authorization
+- shopping carts
+- recommendations
+- user session state(Web e-mail)
+
+
+how to keep "state":
+- protocol endpoints: maintain state at sender/receiver over multiple transactions => TCP
+- cookie: http messages carry state
+
+
+## Web cache (proxy server)
+goal: satisfy client request without involving origin server
+- user sets browser: Web accesses via cache
+- browser sends all HTTP requests to cache
+ - object in cache: cache returns object
+ - else cache requests object from origin server, then returns objects to client
+
+ 
