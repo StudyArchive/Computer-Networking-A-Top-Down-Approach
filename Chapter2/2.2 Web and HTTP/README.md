@@ -134,4 +134,20 @@ goal: satisfy client request without involving origin server
  - object in cache: cache returns object
  - else cache requests object from origin server, then returns objects to client
 
- 
+ ### More about Web caching
+ - cache acts as both client and server
+  - server for original requesting client
+  - client to origin server
+- typically cache is installed by ISP(university, company, residential ISP)
+- why Web caching?(Web cache's merit)
+ - reduce response time for client request
+ - reduce traffic on an institution's access link
+ - Internet dense with cache: enables "poor" content providers to effectively deliver content(so too does P2P file sharing)
+
+
+### Conditional GET
+- Goal: don't send object if cache has up-to-date cached version
+ - no object trasmission delay
+ - lower link utilization
+- cache: specify date of cached copy in HTTP request(<If-modified-since:<date>>)
+- server: response contains no object if cached copy is up-to-date:HTTP/1.0 304 Modified
