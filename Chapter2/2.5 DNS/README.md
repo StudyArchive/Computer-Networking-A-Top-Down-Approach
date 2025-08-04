@@ -1,5 +1,23 @@
 # 2.5 DNS
 
+## DNS:root name servers
+- contaced by local name server that can not resolve name
+- root name server:
+ - contacts authoritative name server if name mapping not known gets mapping
+ - return mapping to local name server
+- 13 root name "servers" worldwide(2012)
+
+## TLD, authoritative servers
+## top-level domain(TLD) servers:
+- responsible for com, org, net, edu, aero, jobs, museums, and all top-level county domains, e.g:uk, fr, ca, jp
+- Network Solutions maintains servers for .com TLD Educause for .edu TLD
+- 한국인터넷정보센터 for .kr TLD
+
+## authoritative DNS server:
+- organizations's own DNS server(s), providing authoritative hostname to IP mappings for organization's named hosts
+- can be maintained by organization's named hosts
+- can be maintained by organization or service provider
+
 ## Local DNS Name server
 - does not strictly belong to hierachy
 - each ISP(residential ISP, company, university) has one
@@ -18,3 +36,8 @@
 - "I don't know this name, but ask this server"
 
 <img width="430" height="560" alt="image" src="https://github.com/user-attachments/assets/a96c4214-802b-45a9-a8cf-ef97cab36918" />
+
+
+### recursive query:
+- puts burden of name resolution on contaced name server
+- heavy load at uppper levels of hierachy
