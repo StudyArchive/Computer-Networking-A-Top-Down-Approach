@@ -16,3 +16,5 @@
 ### iterated query:
 - contacted server replies with name of server to cantact
 - "I don't know this name, but ask this server"
+
+<img width="430" height="560" alt="image" src="https://github.com/user-attachments/assets/a96c4214-802b-45a9-a8cf-ef97cab36918" />
