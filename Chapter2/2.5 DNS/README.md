@@ -41,3 +41,5 @@
 ### recursive query:
 - puts burden of name resolution on contaced name server
 - heavy load at uppper levels of hierachy
+
+<img width="430" height="560" alt="image" src="https://github.com/user-attachments/assets/1fc491b7-fa31-448b-a213-3bd271bdec30" />
