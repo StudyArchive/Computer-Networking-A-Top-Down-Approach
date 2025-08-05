@@ -1,5 +1,31 @@
 # 2.5 DNS
 
+## DNS: domain name system
+- people: many identifiers:
+
+
+### Domain Name System
+- distributed database implemented in hierachy of many name servers
+- application-layer protocol:
+ - host, name servers communicate to resolve names(address/name translation)
+
+## DNS: services, structure
+### DNS services
+- hostname to IP address translation
+- mail server aliasing
+- load distribution
+    - replicated Web servers: many IP addresses correspond to one name
+
+### why not centralize DNS?
+- single point of failure
+- traffic volume
+- distant centralized database
+- maintenance 
+
+
+## DNS: a distributed, hierachical database
+
+
 ## DNS:root name servers
 - contaced by local name server that can not resolve name
 - root name server:
