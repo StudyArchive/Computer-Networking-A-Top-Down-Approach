@@ -24,6 +24,8 @@
 
 
 ## DNS: a distributed, hierachical database
+<img width="800" height="300" alt="image" src="https://github.com/user-attachments/assets/e11358cd-f6d7-4f60-a8f8-2f47eb520bbb" />
+
 
 
 ## DNS:root name servers
