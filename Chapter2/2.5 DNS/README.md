@@ -25,7 +25,10 @@
 
 ## DNS: a distributed, hierachical database
 <img width="800" height="300" alt="image" src="https://github.com/user-attachments/assets/e11358cd-f6d7-4f60-a8f8-2f47eb520bbb" />
-
+### client wnats IP for www.amazon.com; 1st approx:
+- client queries root server to find com DNS server
+- client queries .com DNS server to get amazon.com DNS server
+- client queries amazon.com DNS server to get IP address for www.amazon.com
 
 
 ## DNS:root name servers
